@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 import {PagesModule} from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
+
 
 
 
@@ -17,7 +19,8 @@ import {PagesModule} from './pages/pages.module';
   imports: [
     BrowserModule,
     APP_ROUTER,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
